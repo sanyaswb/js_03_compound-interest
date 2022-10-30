@@ -1,5 +1,5 @@
 function compoundInterest(startDeposit, annualRate, annualAmount, interestPeriod) {
-	// write your code here
+	return startDeposit * Math.pow(1 + (annualRate / annualAmount), annualAmount * interestPeriod);
 }
 
 module.exports = compoundInterest;
